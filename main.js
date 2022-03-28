@@ -40,7 +40,7 @@ function draw()
             text(objects[i].label + " " + percent + "%" , objects[i].x + 20 , objects[i].y + 20);
             noFill();
             stroke("#FF0000");
-            rect(ibjects[i].x, objects[i].y, objects[i].width, objects[i].height);
+            rect(objects[i].x, objects[i].y, objects[i].width, objects[i].height);
         }
 
     }
