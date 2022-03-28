@@ -30,7 +30,7 @@ function draw()
      
     if(status != "")
     {
-        objectDetector.detect(video, gotResults);
+        object.detect(video, gotResults);
         for (i = 0; i < objects.length; i++)
         {
             document.getElementById("status").innerHTML = "Status: objects detected";
